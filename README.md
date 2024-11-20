@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- Nom : Batista Balanche
+- Prénom : Nathan
+- URL Netlify : 
 
 # Travail
 
