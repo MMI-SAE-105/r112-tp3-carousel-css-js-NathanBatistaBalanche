@@ -18,3 +18,6 @@ if (carousel) {
     });
   }
 
+const premierItem = document.querySelector(".carousel__item");
+
+scrollAmount = premierItem.clientWidth;
