@@ -27,8 +27,8 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
 }
 
 .carousel__button {
-  width :50px;/* Largeur du bouton 50px - https://developer.mozilla.org/fr/docs/Web/CSS/width */
-  height :50px;/* Hauteur du bouton 50px - https://developer.mozilla.org/fr/docs/Web/CSS/height */
+  width :10vw;/* Largeur du bouton 50px - https://developer.mozilla.org/fr/docs/Web/CSS/width */
+  height :10vw;/* Hauteur du bouton 50px - https://developer.mozilla.org/fr/docs/Web/CSS/height */
   display :flex;/* Utilise flexbox pour aligner le contenu du bouton - https://developer.mozilla.org/fr/docs/Web/CSS/display */
   align-items:center;/* Aligne le contenu du bouton au centre verticalement - https://developer.mozilla.org/fr/docs/Web/CSS/align-items */
   justify-content:center;/* Centre le contenu du bouton horizontalement - https://developer.mozilla.org/fr/docs/Web/CSS/justify-content */
@@ -49,10 +49,11 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
 }
 
 .carousel__item {
-  flex : 0 0 260px;/* L'élément prend 1 part de l'espace disponible, ne rétrécit pas, et a une largeur de base de 260px - https://developer.mozilla.org/fr/docs/Web/CSS/flex */
+  flex : 0 0 30vw;/* L'élément prend 1 part de l'espace disponible, ne rétrécit pas, et a une largeur de base de 260px - https://developer.mozilla.org/fr/docs/Web/CSS/flex */
   scroll-snap-align : center;/* Aligne l'élément au centre lors du défilement - https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-align */
 }
 
 .carousel__item img {
   display : block;/* Affiche l'image comme un bloc - https://developer.mozilla.org/fr/docs/Web/CSS/display */
+  width : 100%
 }
